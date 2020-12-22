@@ -6,12 +6,6 @@ body{
 	overflow:hidden;
 }
 
-audio{
-	width:100px;
-	height: 30px;	
-	position:fixed;
-	left:90%
-}
 /* ------- PANNEAU PERSONNAGES --------*/
 
 .Panneau_perso{
@@ -155,7 +149,7 @@ audio{
 	background-color: red;
 	opacity: 0.6;
 	box-shadow: 2px 2px 5px #000000;
-	color: #FF3300;
+	color: #120b09;
 	font-size: 13px;
 	justify-content: center;
 	
@@ -267,7 +261,7 @@ box-shadow: 1px 1px 4px #777777;
 -webkit-box-shadow: 1px 1px 4px #777777;
 -moz-box-shadow: 1px 1px 4px #777777;
 }
-}
+
 #passer_tour:hover {
 	background-color:#7d4242;
 }
@@ -283,20 +277,22 @@ box-shadow: 1px 1px 4px #777777;
 	width: 600px;
 	width: 580px;
 	height: 400px;
-	top:63%;
+	top:68%;
 	left:42.2%;
 	justify-content:center;
 	position: fixed;
-	background-image: url("file:///E:/Bataille%20RPG/Sources/Sararoom/dessin-monstre-pixel_61878-709.png");
+	background-image: url("https://us.123rf.com/450wm/sararoom/sararoom1809/sararoom180900004/108073457-vector-illustration-of-cartoon-monster-pixel-design.jpg?ver=6");
 	background-position: cover;
+	background-color:transparent;
 	background-repeat: no-repeat;
 }
+	
 
 #Info_boss{
 	display:flex;
 	width: 200px;
 	height: 50px;
-	top:40%;
+	top:50%;
 	left:45%;
 	justify-content:center;
 	position: fixed;
@@ -308,7 +304,7 @@ box-shadow: 1px 1px 4px #777777;
 	display:flex;
 	width: 200px;
 	height: 25px;
-	top:40%;
+	top:50%;
 	left:45%;
 	justify-content:center;
 	position: fixed;
@@ -320,7 +316,7 @@ box-shadow: 1px 1px 4px #777777;
 	display:flex;
 	width: 200px;
 	height: 25px;
-	top:43.5%;
+	top:53.5%;
 	left:45%;
 	justify-content:center;
 	position: fixed;
